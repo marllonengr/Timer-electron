@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    background: #1E1F2B;
+}
+
+@font-face {
+    font-family: Barlow;
+    src: url(font/barlow-semi-condensed.extralight.ttf);
+}
+h1 {
+    margin: 0;
+    font-size: 70px; font-family: Barlow;
+    text-align: center;
+    color: #fff;
+}
+
+
+.container_btn {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin: auto;
+}
+
+button {
+    background: #282A3A;
+    padding: 3px 15px 3px 15px;
+    border: none; border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 14px;
+}
+
+button:hover {
+    background: #4B3E97;
+}
